@@ -1,0 +1,178 @@
+body {
+	background-color: #f3f5ff;
+}
+
+.banner {
+	width: 100%;
+	position: relative;
+	top: 3px;
+}
+
+.mian-img {
+	position: relative;
+}
+
+.mian-img a {
+	display: block;
+	position: absolute;
+	width: 150px;
+	height: 40px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+.mian-img .mian-img-1 {
+	left: 33.6%;
+	top: 63.45%;
+}
+
+.mian-img .mian-img-2 {
+	top: 79%;
+	left: 33.6%;
+}
+
+.mian-img .mian-img-3 {
+	right: 33.6%;
+	top: 63.45%;
+}
+
+.mian-img .mian-img-4 {
+	top: 79%;
+	right: 33.6%;
+}
+
+.mian-img .mian-img-5 {
+	left: 50%;
+	margin-left: -0.70rem;
+	bottom: 1%;
+}
+
+.main-item-1 {
+	max-width: 1032px;
+	margin: 0 auto 0.25rem auto;
+	padding-top: 60px;
+	padding-bottom: 0.28rem;
+	box-shadow: 0px 0px 20px #e0e0e0;
+}
+
+.main-item-1>div {
+	max-width: 950px;
+	margin: 0 auto;
+	padding-bottom: 0.2rem;
+	box-shadow: 0px 0px 20px #e0e0e0;
+}
+
+.main-item-1 .advantage-title {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-size: 0.4rem;
+	color: #fe2323;
+	background-color: #b1beff;
+	text-align: center;
+	margin-bottom: 0.4rem;
+}
+
+.main-item-1 .advantage-title span {
+	font-size: 0.8rem;
+}
+
+.main-item-1 .item-content {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.main-item-1 .item-content img {
+	margin-bottom: 0.38rem;
+}
+
+.main-item-1 .item-content dt {
+	margin-bottom: 0.32rem;
+
+}
+
+.main-item-1 .item-content a {
+	color: #063acc;
+	font-size: 0.2rem;
+}
+
+.main-item-1 .item-content dd {
+	font-size: 0.16rem;
+	color: #535353;
+}
+
+.main-item-2 {
+	max-width: 1032px;
+	margin: 0 auto 0.25rem auto;
+	padding-top: 0.48rem;
+	text-align: center;
+	box-shadow: 0px 0px 20px #e0e0e0;
+
+}
+
+.main-item-2 .item-title {
+	font-size: 0.5rem;
+	color: #333333;
+	font-weight: 600;
+	position: relative;
+}
+
+.main-item-2>p {
+	font-size: 0.18rem;
+	margin-bottom: 0.58rem;
+}
+
+.table {
+	width: 100%;
+	border: 1px solid #f1f4fc;
+	font-size: #333333;
+}
+
+.table th {
+	height: 0.51rem;
+	font-size: 0.23rem;
+}
+
+.table tr td {
+	font-size: 0.17rem;
+}
+
+.table tr td:last-child {
+	width: 26%;
+}
+
+.table table,
+.table td,
+.table th {
+	border: 1px solid #9998fe;
+}
+
+.main-item-2 .bg {
+	height: 0.54rem;
+	width: 100%;
+	background-color: #9998fe;
+}
+
+.main-item-2 .item-footer {
+	padding: 0.54rem 0 0.16rem 0;
+}
+
+.main-item-2 .item-footer a {
+	display: inline-block;
+	background-color: #976bff;
+	color: #FFFFFF;
+	font-size: 0.27rem;
+	padding: 0.2rem 1.1rem;
+	border-radius: 10px;
+}
+
+.main-item-3 {
+	position: relative;
+	top: 4px;
+}
+
+.main-item-3 img {
+	width: 100%;
+}

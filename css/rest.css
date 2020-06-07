@@ -1,0 +1,176 @@
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+}
+/* 设置默认字体 */
+body,
+button, input, select, textarea { /* for ie */
+		/*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+		font-family: "微软雅黑",sans-serif, inherit; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+		font-size: 0.12rem;
+}
+
+h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+
+/* 重置文本格式元素 */
+a { text-decoration: none;color:#333333 }
+a:hover { text-decoration: none; }
+
+abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+		border-bottom: 1px dotted;
+		cursor: help;
+}
+
+q:before, q:after { content: ''; }
+
+/* 重置表单元素 */
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea {
+		font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+
+div{
+	box-sizing:border-box;
+}
+/* 重置表格元素 */
+table {
+		border-collapse: collapse;
+		border-spacing: 0;
+}
+
+/* 重置 hr */
+hr {
+		border: none;
+		height: 1px;
+}
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+html { overflow-y: scroll; }
+/*超出内容显示省略号*/
+.ellipsis{  max-width: 100%;  white-space: nowrap;  text-overflow:ellipsis;  overflow:hidden;  }
+/*清除浮动*/
+.clearfix {  *zoom: 1;  }
+.clearfix:before,
+.clearfix:after {  display: table;  line-height: 0;  content: "";  }
+.clearfix:after {  clear: both;  }
+
+.header{
+	background-color: #FFFFFF;
+	height: 74px;
+	position: relative;
+}
+.header>div{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header-l{
+	float: left;
+	vertical-align: middle;
+}
+.header-l img{
+	margin-top: 10px;
+}
+.header-r{
+	float: right
+}
+.header-btn{
+	display: none;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.3rem;
+}
+
+.header-r li{
+	line-height: 74px;
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+@media screen and (min-width: 1050px) {
+	.header-r{
+		display: block!important;
+	}
+}
+@media screen and (max-width: 1050px) {
+	.header{
+		height: auto;
+		padding-bottom: 0.2rem;
+	}
+	.header-l{
+		float: none;
+		}
+	.header-r{
+		float: none;
+		margin-top: 0.2rem;
+		position: absolute;
+		left: 0;
+		top: 50px;
+		width: 100%;
+		background-color: #FFFFFF;
+		z-index: 2;
+		box-shadow: 5px 10px 5px rgba(0,0,0,0.2);
+	}
+	.header-btn{
+		display: block;
+	}
+	.header-r li{
+		line-height: 44px;
+		list-style: none;
+		float: none;
+		text-align: left;
+		padding:0 0.2rem;
+		margin:0 20px;
+		border-bottom: 1px solid #CCCCCC;
+	}
+	.header-r{
+		display: none;
+	}
+}
+.footer{
+	background-color: #282828;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 30px 0;
+	font-size: 12px;
+	overflow: hidden;
+}
+.footer p,.footer pre{
+	margin-bottom: 10px;
+}
+.footer a{
+	display: inline-block;
+	color: #FFFFFF;
+	text-decoration:none;
+	padding: 0 10px;
+	border-right: 1px solid #FFFFFF;
+}
+.banner img{
+	width: 100%;
+}
+.menu-icon{
+	width: 35px;
+	height: 25px;
+	border-top: 5px solid #DD575C;
+	border-bottom: 5px solid #DD575C;
+	background-color: #DD575C;
+	padding: 5px 0;
+	background-clip:content-box;
+	}
