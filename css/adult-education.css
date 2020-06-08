@@ -38,7 +38,16 @@
 	width: 385px;
 	float: left;
 }
-
+@media screen and (max-width: 768px) {
+	.banner-content form {
+	    width: 360px;
+	    margin: 0 auto;
+	}
+	.banner-content form input[type='text'] {
+		width: 74%;
+		float: left;
+	}
+	}
 .banner-content form input[type='submit'] {
 	height: 38px;
 	line-height: 38px;

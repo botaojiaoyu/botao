@@ -111,9 +111,12 @@ body {
 	line-height: 0.4rem;
 	text-indent: 0.4rem;
 }
-
-.main-item-1 .item-content-r p:last-child {
+.main-item-1 .item-content-r .txt{
+	margin-bottom: 0.3rem;
+}
+.main-item-1 .item-content-r .no-indent {
 	text-indent: 0;
+	margin-bottom: 0.15rem;
 }
 
 .main-item-1 .item-content-r .content-r-tag {
