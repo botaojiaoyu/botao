@@ -55,7 +55,8 @@
 	color: #FFFFFF;
 	text-align: center;
 	border: none;
-	border-radius: inherit;
+	-webkit-appearance: none;
+        border-radius: 0;
 	padding: 0 10px;
 }
 
