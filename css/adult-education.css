@@ -55,6 +55,7 @@
 	color: #FFFFFF;
 	text-align: center;
 	border: none;
+	border-radius: inherit;
 	padding: 0 10px;
 }
 
