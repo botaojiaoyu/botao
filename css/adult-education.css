@@ -37,6 +37,8 @@
 
 .banner-content form input[type='text'] {
 	width: 385px;
+	-webkit-appearance: none;
+        border-radius: 0;
 }
 @media screen and (max-width: 768px) {
 	.banner-content form {
