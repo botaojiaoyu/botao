@@ -32,11 +32,11 @@
 .banner-content form {
 	width: 470px;
 	margin: 0 auto;
+	display: flex;
 }
 
 .banner-content form input[type='text'] {
 	width: 385px;
-	float: left;
 }
 @media screen and (max-width: 768px) {
 	.banner-content form {
@@ -45,18 +45,17 @@
 	}
 	.banner-content form input[type='text'] {
 		width: 250px;
-		float: left;
 	}
 	}
 .banner-content form input[type='submit'] {
 	height: 38px;
+	display: block;
 	line-height: 38px;
 	background-color: #f22929;
 	color: #FFFFFF;
 	text-align: center;
 	border: none;
 	padding: 0 10px;
-	float: left;
 }
 
 .main-item-1 {
